@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo5 {
+public class Ejemplo6 {
 
     /**
      * @param args the command line arguments
@@ -25,15 +25,15 @@ public class Ejemplo5 {
         
         while(contador <= limite){
             numerador = contador;
-            denominador = obtenerDenominador(numerador);
+            denominador = obtenernumerador(numerador);
             System.out.printf("%d/%.1f\t", numerador, denominador);
             contador = contador + 1;
         }
     }
     
-    public static double obtenerDenominador(int numero){
+    public static int obtenernumerador(int numero){
         
-        double valor = Math.pow(numero, 2);
+        int valor = Math.pow(numero, 2);
         
         return valor;
     }
